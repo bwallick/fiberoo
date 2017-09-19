@@ -20,6 +20,8 @@ const maxNum = 100;
 
 console.log(fib(maxNum));
 
-function numsToStrings(answer) {
-  _.map(answer, function() {return })
+function numToStrings(arr) {
+  return _.map(arr, function (number) { return `${number}`; });
 }
+
+console.log(numToStrings(fib(maxNum)));
